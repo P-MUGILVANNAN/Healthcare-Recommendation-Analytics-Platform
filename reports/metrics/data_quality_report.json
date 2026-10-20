@@ -1,0 +1,207 @@
+{
+  "dataset_name": "UCI Cleveland Heart Disease Benchmark",
+  "total_records": 303,
+  "total_attributes": 13,
+  "missing_values_per_column": {
+    "age": 0,
+    "sex": 0,
+    "cp": 0,
+    "trestbps": 0,
+    "chol": 0,
+    "fbs": 0,
+    "restecg": 0,
+    "thalach": 0,
+    "exang": 0,
+    "oldpeak": 0,
+    "slope": 0,
+    "ca": 4,
+    "thal": 2,
+    "target": 0
+  },
+  "class_distribution": {
+    "negative_cases": 164,
+    "positive_cases": 139,
+    "positive_prevalence_pct": 45.87
+  },
+  "splits": {
+    "train_size": 211,
+    "val_size": 46,
+    "test_size": 46
+  },
+  "numerical_feature_stats": {
+    "age": {
+      "count": 303.0,
+      "mean": 54.44,
+      "std": 9.04,
+      "min": 29.0,
+      "25%": 48.0,
+      "50%": 56.0,
+      "75%": 61.0,
+      "max": 77.0
+    },
+    "trestbps": {
+      "count": 303.0,
+      "mean": 131.69,
+      "std": 17.6,
+      "min": 94.0,
+      "25%": 120.0,
+      "50%": 130.0,
+      "75%": 140.0,
+      "max": 200.0
+    },
+    "chol": {
+      "count": 303.0,
+      "mean": 246.69,
+      "std": 51.78,
+      "min": 126.0,
+      "25%": 211.0,
+      "50%": 241.0,
+      "75%": 275.0,
+      "max": 564.0
+    },
+    "thalach": {
+      "count": 303.0,
+      "mean": 149.61,
+      "std": 22.88,
+      "min": 71.0,
+      "25%": 133.5,
+      "50%": 153.0,
+      "75%": 166.0,
+      "max": 202.0
+    },
+    "oldpeak": {
+      "count": 303.0,
+      "mean": 1.04,
+      "std": 1.16,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.8,
+      "75%": 1.6,
+      "max": 6.2
+    }
+  },
+  "feature_dictionary": {
+    "age": {
+      "type": "numeric",
+      "unit": "years",
+      "range": [
+        20,
+        100
+      ],
+      "desc": "Age of patient"
+    },
+    "sex": {
+      "type": "binary",
+      "values": {
+        "1": "Male",
+        "0": "Female"
+      },
+      "desc": "Biological sex"
+    },
+    "cp": {
+      "type": "categorical",
+      "values": {
+        "1": "Typical Angina",
+        "2": "Atypical Angina",
+        "3": "Non-anginal",
+        "4": "Asymptomatic"
+      },
+      "desc": "Chest pain type"
+    },
+    "trestbps": {
+      "type": "numeric",
+      "unit": "mmHg",
+      "range": [
+        80,
+        240
+      ],
+      "desc": "Resting systolic blood pressure upon hospital admission"
+    },
+    "chol": {
+      "type": "numeric",
+      "unit": "mg/dl",
+      "range": [
+        100,
+        600
+      ],
+      "desc": "Serum cholesterol level"
+    },
+    "fbs": {
+      "type": "binary",
+      "values": {
+        "1": "> 120 mg/dl",
+        "0": "<= 120 mg/dl"
+      },
+      "desc": "Fasting blood sugar"
+    },
+    "restecg": {
+      "type": "categorical",
+      "values": {
+        "0": "Normal",
+        "1": "ST-T Wave Abnormality",
+        "2": "Left Ventricular Hypertrophy"
+      },
+      "desc": "Resting electrocardiographic results"
+    },
+    "thalach": {
+      "type": "numeric",
+      "unit": "bpm",
+      "range": [
+        60,
+        220
+      ],
+      "desc": "Maximum heart rate achieved during exercise"
+    },
+    "exang": {
+      "type": "binary",
+      "values": {
+        "1": "Yes",
+        "0": "No"
+      },
+      "desc": "Exercise-induced angina"
+    },
+    "oldpeak": {
+      "type": "numeric",
+      "unit": "mm",
+      "range": [
+        0.0,
+        7.0
+      ],
+      "desc": "ST depression induced by exercise relative to rest"
+    },
+    "slope": {
+      "type": "categorical",
+      "values": {
+        "1": "Upsloping",
+        "2": "Flat",
+        "3": "Downsloping"
+      },
+      "desc": "Slope of the peak exercise ST segment"
+    },
+    "ca": {
+      "type": "numeric",
+      "range": [
+        0,
+        3
+      ],
+      "desc": "Number of major vessels (0-3) colored by flourosopy"
+    },
+    "thal": {
+      "type": "categorical",
+      "values": {
+        "3": "Normal",
+        "6": "Fixed Defect",
+        "7": "Reversible Defect"
+      },
+      "desc": "Thallium heart scan defect status"
+    },
+    "target": {
+      "type": "binary",
+      "values": {
+        "0": "Absence (< 50% stenosis)",
+        "1": "Presence (> 50% stenosis)"
+      },
+      "desc": "Angiographic cardiovascular disease status"
+    }
+  }
+}

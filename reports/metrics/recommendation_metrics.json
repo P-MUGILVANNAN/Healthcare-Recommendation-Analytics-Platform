@@ -1,0 +1,57 @@
+{
+  "Popularity Baseline": {
+    "Precision@3": 0.1282,
+    "Recall@3": 0.1923,
+    "NDCG@3": 0.128,
+    "Precision@5": 0.1,
+    "Recall@5": 0.234,
+    "NDCG@5": 0.1448,
+    "HitRate@5": 0.3462,
+    "CatalogCoverage_Pct": 31.25,
+    "IntraListDiversity": 0.6
+  },
+  "Content-Based": {
+    "Precision@3": 0.1026,
+    "Recall@3": 0.1442,
+    "NDCG@3": 0.1606,
+    "Precision@5": 0.0846,
+    "Recall@5": 0.1859,
+    "NDCG@5": 0.1813,
+    "HitRate@5": 0.3846,
+    "CatalogCoverage_Pct": 43.75,
+    "IntraListDiversity": 0.8692
+  },
+  "Collaborative Filtering": {
+    "Precision@3": 0.1282,
+    "Recall@3": 0.1827,
+    "NDCG@3": 0.1754,
+    "Precision@5": 0.0846,
+    "Recall@5": 0.1955,
+    "NDCG@5": 0.1802,
+    "HitRate@5": 0.3462,
+    "CatalogCoverage_Pct": 56.25,
+    "IntraListDiversity": 0.7462
+  },
+  "Hybrid Recommender": {
+    "Precision@3": 0.1026,
+    "Recall@3": 0.1442,
+    "NDCG@3": 0.1518,
+    "Precision@5": 0.1231,
+    "Recall@5": 0.3365,
+    "NDCG@5": 0.2355,
+    "HitRate@5": 0.4615,
+    "CatalogCoverage_Pct": 56.25,
+    "IntraListDiversity": 0.6692
+  },
+  "Risk-Aware Hybrid Recommender": {
+    "Precision@3": 0.1026,
+    "Recall@3": 0.1442,
+    "NDCG@3": 0.1518,
+    "Precision@5": 0.1231,
+    "Recall@5": 0.3365,
+    "NDCG@5": 0.2355,
+    "HitRate@5": 0.4615,
+    "CatalogCoverage_Pct": 56.25,
+    "IntraListDiversity": 0.6692
+  }
+}
